@@ -1,6 +1,6 @@
 <?php if( !defined( "WHMCS" ) )
     die( "This file cannot be accessed directly" );
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 
 
 function addOrUpdate($name,$value){
