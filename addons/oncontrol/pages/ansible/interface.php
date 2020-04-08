@@ -1,7 +1,7 @@
 <?php
 if (!defined("WHMCS"))
     die("This file cannot be accessed directly");
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 ini_set('display_errors', 0);
 $allAddon=Capsule::table( 'tbladdons' )
     ->select("id","name","description")
