@@ -4,7 +4,7 @@ if (!defined("WHMCS")) {
     die("This file cannot be accessed directly");
 }
 
-use WHMCS\Database\enchadb as enchadb;
+use WHMCS\Database\enchadb as Capsule;
 
 
 if (isset($_POST['action']))                                            // <-- ACTIONS LIKE SUSPEND/UNSUSPEND ARE HERE
