@@ -1,6 +1,6 @@
 <?php
 
-use WHMCS\Database\Capsule as Capsule;
+use WHMCS\Database\enchadb as Capsule;
 ini_set('display_errors', 0);
 if (isset($_POST['action'])) {
 //    echo '<pre>';
