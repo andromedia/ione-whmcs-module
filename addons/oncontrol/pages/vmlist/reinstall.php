@@ -1,7 +1,7 @@
 <?php
 
 
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 $LANG=$this->vars['_lang'];
 if (!defined("WHMCS")) {
 	die("This file cannot be accessed directly");
