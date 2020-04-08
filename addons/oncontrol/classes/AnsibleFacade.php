@@ -1,5 +1,5 @@
 <?php
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 
 class AnsibleFacade{
     protected $LANG;
