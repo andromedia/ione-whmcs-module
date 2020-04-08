@@ -1,5 +1,5 @@
 <?php
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 use Symfony\Component\Yaml\Yaml;
 
 if (!defined("WHMCS")) {
