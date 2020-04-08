@@ -1,6 +1,6 @@
 <?php
 
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 
 
 
