@@ -8,10 +8,10 @@ ini_set('display_errors', 0);
 
 function oncontrol_config() {
     $configarray = array(
-        "name" => "Open Nebula Control",
-        "description" => "Open Nebula Control",
-        "version" => "0.5",
-        "author" => "support.by",
+        "name" => "NodeWeaver Control",
+        "description" => "NodeWeaver Control",
+        "version" => "0.6",
+        "author" => "Supported",
         "language"=> 'english'
         );
     return $configarray;
