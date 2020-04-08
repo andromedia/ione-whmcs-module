@@ -1,5 +1,5 @@
 <?php
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 ini_set('display_errors', 0);
 function vmlist_javaScripts()
 {?>
