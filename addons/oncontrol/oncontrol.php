@@ -2,7 +2,7 @@
 /*if( !defined( "WHMCS" ) )
     die( "This file cannot be accessed directly" );*/
 
-use WHMCS\Database\Capsule;
+use WHMCS\Database\enchadb;
 ini_set('display_errors', 0);
 
 
@@ -10,7 +10,7 @@ function oncontrol_config() {
     $configarray = array(
         "name" => "NodeWeaver Control",
         "description" => "NodeWeaver Control",
-        "version" => "0.6",
+        "version" => "0.7",
         "author" => "Supported",
         "language"=> 'english'
         );
